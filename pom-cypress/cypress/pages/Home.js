@@ -16,6 +16,14 @@ class Home {
   getSearchButton() {
     return cy.get("#entry_217822 > div > form > #search > div.search-button > button").first()
   }
+
+  getSearchedProduct() {
+    return cy.get("#entry_212469 > div >  div:nth-child(1) > div");
+  }
+
+  getBuyNowBtn() {
+    return cy.get("#entry_216843 > button");
+  }
  
   getWishListButton() {
     return cy.get("#entry_217824 > a");

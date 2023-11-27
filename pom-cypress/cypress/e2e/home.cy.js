@@ -8,12 +8,7 @@ import Home from "../pages/Home"
     })
    
     it("should visit home page", () => {
-     home.visit()
-    })
-  
-    it("should search for a product", () => {
-      home.searchInput("iphone");
-      home.getSearchButton().click();
+      home.visit()
     })
 
     it("should go to the wishlist page", () => {
@@ -24,5 +19,14 @@ import Home from "../pages/Home"
       home.getAddOnsButton().trigger('mouseover');
       home.getModulesAddOnLink().click();
     })
+  
+    it("should search for a product and buy it", () => {
+      home.searchInput("iMac");
+      home.getSearchButton().click();
+      home.getSearchedProduct().click();
+      home.getBuyNowBtn().click();
+    })
+
+    
     
  })

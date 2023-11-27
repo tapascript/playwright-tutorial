@@ -1,6 +1,8 @@
 import Blog from "../pages/Blog"
  
- const blog = new Blog()
+ const blog = new Blog();
+
+ const categories = ["Business", "Electronics", "Technology", "Fashion"];
   
  describe("testing blog page", () => {
    beforeEach(() => {
@@ -12,10 +14,9 @@ import Blog from "../pages/Blog"
    })
   
    it("should have correct category names", () => {
-     blog.getCategoryButton(1).should("contain.text", "Business")
-     blog.getCategoryButton(2).should("contain.text", "Electronics")
-     blog.getCategoryButton(3).should("contain.text", "Technology")
-     blog.getCategoryButton(4).should("contain.text", "Fashion")
+    categories.forEach((categoryName, index) => {
+      blog.getCategoryButton(index+1).should("contain.text", categoryName) 
+    });
    })
  })
  
