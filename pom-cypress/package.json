@@ -1,0 +1,19 @@
+{
+  "name": "pom-cypress",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "cypress:run": "cypress run",
+    "cypress:open": "cypress open"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "MIT",
+  "devDependencies": {
+    "cypress": "^13.5.1"
+  },
+  "dependencies": {
+    "lambdatest-cypress-cli": "^3.0.21"
+  }
+}
