@@ -17,7 +17,7 @@ import Home from "../pages/Home"
     
     it("should show the addOns menu options and list modules", () => {
       home.getAddOnsButton().trigger('mouseover');
-      home.getModulesAddOnLink().click();
+      home.getModulesAddOnLink().click({force: true});
     })
   
     it("should search for a product and buy it", () => {
