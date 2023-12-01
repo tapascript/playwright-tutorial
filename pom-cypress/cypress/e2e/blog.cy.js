@@ -4,7 +4,7 @@ import Blog from "../pages/Blog"
 
  const categories = ["Business", "Electronics", "Technology", "Fashion"];
   
- describe("testing blog page", () => {
+ describe("Testing the E-commerce Site Blog Page", () => {
    beforeEach(() => {
      blog.visit()
    })

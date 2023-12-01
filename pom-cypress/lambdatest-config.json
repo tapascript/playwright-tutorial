@@ -28,7 +28,7 @@
    ],
    "run_settings": {
       "reporter_config_file": "base_reporter_config.json",
-      "build_name": "cypress-pom-demo-run",
+      "build_name": "Page Object Model in Cypress: Tests run on LambdaTest E-Commerce Playground",
       "parallels": 3,
       "specs": "./cypress/e2e/*.cy.js",
       "ignore_files": "",

@@ -2,7 +2,7 @@ import Home from "../pages/Home"
  
  const home = new Home()
   
- describe("testing home page", () => {
+ describe("Testing the E-commerce Site Home Page", () => {
     beforeEach(() => {
       home.visit()
     })
