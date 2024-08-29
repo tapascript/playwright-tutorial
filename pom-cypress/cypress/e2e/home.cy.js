@@ -26,7 +26,4 @@ import Home from "../pages/Home"
       home.getSearchedProduct().click();
       home.getBuyNowBtn().click();
     })
-
-    
-    
  })

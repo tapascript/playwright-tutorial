@@ -2,7 +2,9 @@
   "name": "01-playwright",
   "version": "1.0.0",
   "main": "index.js",
-  "scripts": {},
+  "scripts": {
+    "test": "npx playwright test --config=./playwright.config.js"
+  },
   "keywords": [],
   "author": "",
   "license": "ISC",
@@ -10,5 +12,8 @@
   "devDependencies": {
     "@playwright/test": "^1.46.1",
     "@types/node": "^22.5.1"
+  },
+  "dependencies": {
+    "dotenv": "^16.4.5"
   }
 }
