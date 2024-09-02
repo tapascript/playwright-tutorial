@@ -7,7 +7,7 @@ require("dotenv").config();
     browserName: "Chrome", // Browsers allowed: `Chrome`, `MicrosoftEdge`, `pw-chromium`, `pw-firefox` and `pw-webkit`
     browserVersion: "latest",
     "LT:Options": {
-      platform: "Windows 10",
+      platform: "Windows 11",
       build: "Playwright Lambdatest Build",
       name: "Playwright Lambdatest Test",
       user: process.env.LT_USERNAME,
