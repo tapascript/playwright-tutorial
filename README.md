@@ -1,4 +1,4 @@
-# lambda-test
-A list of projects done for LambdaTest
+# Playwright Tutorial
+A list of projects done to explain the PlayWright tool
 
-- [Page Object Model with Cypress](./pom-cypress)
+- [01 - Playwright Intro, Install, Create, Run Test, and on LambdaTest](./01-playwright)
