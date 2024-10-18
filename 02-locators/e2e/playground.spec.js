@@ -77,5 +77,12 @@ test.describe("Testing an eCommerce playground", () => {
     await page.getByRole("button", { name: "BUY NOW" }).click();
   });
 
+  // Locator - items in list
+  test("test items in list", async({page}) => {
+    await page.goto('https://ecommerce-playground.lambdatest.io/index.php?route=product/product&path=25&product_id=29');
+    await expect(page.locator('div#entry_216826 UL LI')).toHaveCount(3);
+    await expect(page.locator('div#entry_216826 UL LI')).toHaveText(['Brand: Palm', 'Viewed: 64769', 'Availability: Out Of Stock ']);
+  });
+
 
 });
