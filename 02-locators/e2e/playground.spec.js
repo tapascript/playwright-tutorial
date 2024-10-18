@@ -66,4 +66,16 @@ test.describe("Testing an eCommerce playground", () => {
     await page.click('xpath=/html/body/div[1]/div[9]/div[1]/div[2]/div/div[2]/div[2]/div[10]/div/div[4]/div/div[2]/button');
     await page.click('//div[@id="entry_216842"]//button[@title="Add to Cart"][normalize-space()="Add to Cart"]');
   });
+
+  // Locator - Combination & nth Element
+  test("search products and buy", async ({ page }) => {
+    await page.goto("https://ecommerce-playground.lambdatest.io/");
+    await page.getByPlaceholder("Search For Products").first().click();
+    await page.getByPlaceholder("Search For Products").first().fill("Phone");
+    await page.getByRole("button", { name: "SEARCH" }).click();
+    await page.locator(".product-thumb").nth(2).click();
+    await page.getByRole("button", { name: "BUY NOW" }).click();
+  });
+
+
 });
