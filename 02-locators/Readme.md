@@ -7,11 +7,20 @@ This project contains the source code to demonstrate the usage Playwright test w
 
 Are you looking forward to getting started with PlayWright and LambdaTest by learning the following?
 
-- Locators
-- Built-in Locators
-- CSS Locators
-- XPATH Locators
-- How to Combine Locators for your use cases?
+- [X] What are Locators?
+- [X] Default Locators
+  - [X] Locate by role => page.getByRole()
+  - [X] Locate by label => page.getByLabel()
+  - [X] Locate by placeholder => page.getByPlaceholder()
+  - [X] Locate by text => page.getByText()
+  - [X] Locate by alt text => page.getByAltText()
+  - [X] Locate by alt title => page.getByTitle()
+  - [X] Locate by alt test id => page.getByTestId()
+- [X] Locate by CSS
+- [X] Locate by XPath
+- [X] Combine Locators
+- [X] Finding Items in List
+- [X] Running test on the LambdaTest   
 
 Catch up with this video tutorial to get started:
 
