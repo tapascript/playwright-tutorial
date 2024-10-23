@@ -1,4 +1,4 @@
-# 01 - Playwright Tutorial
+# 02 - Playwright Tutorial
 
 This project contains the source code to demonstrate the usage Playwright test with LambdaTest.
 
@@ -7,18 +7,20 @@ This project contains the source code to demonstrate the usage Playwright test w
 
 Are you looking forward to getting started with PlayWright and LambdaTest by learning the following?
 
-- Introduction and Installation to Playwright with JavaScript
-- Creating and Running tests with the playwright
-- Script to run Playwright tests on the LambdaTest.
+- Locators
+- Built-in Locators
+- CSS Locators
+- XPATH Locators
+- How to Combine Locators for your use cases?
 
 Catch up with this video tutorial to get started:
 
-> https://www.lambdatest.com/video/how-to-create-and-run-your-first-test
+<THUMBNAIL_LINKED_TO_THE_YOUTUBE_VIDEO/>
 
 ## How to Run the Project Locally?
 To run the project locally:
 - Clone or fork this repository.
-- Browse to the 01-playwright directory.
+- Browse to the 02-locators directory.
 - Install the dependencies using the `npm install  command`.
 - Run the tests using the `npm run test` command.
 

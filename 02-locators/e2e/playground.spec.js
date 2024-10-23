@@ -83,6 +83,4 @@ test.describe("Testing an eCommerce playground", () => {
     await expect(page.locator('div#entry_216826 UL LI')).toHaveCount(3);
     await expect(page.locator('div#entry_216826 UL LI')).toHaveText(['Brand: Palm', 'Viewed: 64769', 'Availability: Out Of Stock ']);
   });
-
-
 });
